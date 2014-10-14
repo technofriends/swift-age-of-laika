@@ -16,27 +16,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Human Years Here" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BxX-Wi-KmU">
-                                <rect key="frame" x="27" y="79" width="175" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Zs-Z9-RUr">
-                                <rect key="frame" x="27" y="117" width="156" height="22"/>
-                                <state key="normal" title="Convert to Dog Years"/>
-                                <connections>
-                                    <action selector="convertToDogYearsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aQ6-yo-f1K"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AgeOfLaika.jpg" highlightedImage="AgeOfLaika.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zGB-9h-f0l">
-                                <rect key="frame" x="27" y="166" width="206" height="128"/>
-                            </imageView>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Dog Years" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LBE-qY-FqS">
                                 <rect key="frame" x="27" y="41" width="348" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="27" y="41" width="300" height="21"/>
+                                </variation>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Dog Years Here" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BxX-Wi-KmU">
+                                <rect key="frame" x="27" y="79" width="200" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="27" y="79" width="300" height="30"/>
+                                </variation>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AgeOfLaika.jpg" highlightedImage="AgeOfLaika.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zGB-9h-f0l">
+                                <rect key="frame" x="27" y="166" width="200" height="200"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="27" y="166" width="300" height="300"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Zs-Z9-RUr">
+                                <rect key="frame" x="41" y="117" width="173" height="22"/>
+                                <state key="normal" title="Convert to Human Years"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="91" y="124" width="173" height="22"/>
+                                </variation>
+                                <connections>
+                                    <action selector="convertToDogYearsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aQ6-yo-f1K"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -47,6 +59,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="139.5" y="136"/>
         </scene>
     </scenes>
     <resources>

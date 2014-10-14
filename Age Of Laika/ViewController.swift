@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         let humanYearsFromTextField = humanYearsTextField.text.toInt()!
         let conversionConstant = 7
         
-        dogYearsLabel.text = "\(humanYearsFromTextField * conversionConstant)" + " Dog Years"
+        dogYearsLabel.text = "\(humanYearsFromTextField * conversionConstant)" + " Human Years"
         
         humanYearsTextField.resignFirstResponder()
     }
