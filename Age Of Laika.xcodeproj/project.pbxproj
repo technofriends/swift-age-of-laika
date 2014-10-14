@@ -13,6 +13,7 @@
 		992F4BD119ED7E570088B340 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 992F4BD019ED7E570088B340 /* Images.xcassets */; };
 		992F4BD419ED7E570088B340 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992F4BD219ED7E570088B340 /* LaunchScreen.xib */; };
 		992F4BE019ED7E580088B340 /* Age_Of_LaikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992F4BDF19ED7E580088B340 /* Age_Of_LaikaTests.swift */; };
+		992F4BEA19ED7F4A0088B340 /* AgeOfLaika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 992F4BE919ED7F4A0088B340 /* AgeOfLaika.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		992F4BD919ED7E580088B340 /* Age Of LaikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Age Of LaikaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		992F4BDE19ED7E580088B340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		992F4BDF19ED7E580088B340 /* Age_Of_LaikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age_Of_LaikaTests.swift; sourceTree = "<group>"; };
+		992F4BE919ED7F4A0088B340 /* AgeOfLaika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AgeOfLaika.jpg; path = "Age Of LaikaTests/AgeOfLaika.jpg"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		992F4BC719ED7E570088B340 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				992F4BE919ED7F4A0088B340 /* AgeOfLaika.jpg */,
 				992F4BC819ED7E570088B340 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				992F4BCF19ED7E570088B340 /* Main.storyboard in Resources */,
+				992F4BEA19ED7F4A0088B340 /* AgeOfLaika.jpg in Resources */,
 				992F4BD419ED7E570088B340 /* LaunchScreen.xib in Resources */,
 				992F4BD119ED7E570088B340 /* Images.xcassets in Resources */,
 			);
